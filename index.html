@@ -65,7 +65,7 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button type="button" class="modal-open-btn">Замовити послугу</button>
+          <button type="button" class="modal-open-btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="section">
@@ -73,7 +73,7 @@
           <h2 class="visually-hidden">Особливості</h2>
           <ul class="list features-list">
             <li class="card">
-              <div class="features-decor-link">
+              <div class="features-decor">
                 <svg aria-label="іконка антена" width="70" height="70">
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
@@ -85,7 +85,7 @@
               </p>
             </li>
             <li class="card">
-              <div class="features-decor-link">
+              <div class="features-decor">
                 <svg aria-label="іконка годинник" width="70" height="70">
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
@@ -97,7 +97,7 @@
               </p>
             </li>
             <li class="card">
-              <div class="features-decor-link">
+              <div class="features-decor">
                 <svg aria-label="іконка діаграма" width="70" height="70">
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
@@ -108,7 +108,7 @@
               </p>
             </li>
             <li class="card">
-              <div class="features-decor-link">
+              <div class="features-decor">
                 <svg aria-label="іконка астронавт" width="70" height="70">
                   <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
@@ -528,5 +528,17 @@
         </address>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-close-btn" data-modal-close>
+                    <svg class="modal-close-icon" width="18" height="18">
+                        <use href="./images/sprite.svg#icon-close-cross"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <script src="./js/modal.js"></script>
   </body>
 </html>
