@@ -298,9 +298,9 @@ body {
 
 .about-overlay {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
-  width: 70px;
+  height: 70px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
